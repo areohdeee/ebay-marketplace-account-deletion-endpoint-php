@@ -1,3 +1,5 @@
+<?php
+
 $hash = hash_init('sha256');
 
 // This is what eBay sends you as a GET param, leave it alone.
@@ -25,3 +27,4 @@ $objJSON = json_encode($obj);
 echo $objJSON;
 
 // Enjoy!
+?>
